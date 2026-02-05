@@ -10,7 +10,7 @@ class BinarySearchRecursivePage extends StatefulWidget {
 class _BinarySearchRecursivePageState extends State<BinarySearchRecursivePage> {
   final TextEditingController _searchController = TextEditingController();
   final TextEditingController _resultController = TextEditingController();
-  List<int> _sortedList = List.generate(20, (index) => index * 5); // 0, 5, 10, 15, ...
+  final List<int> _sortedList = List.generate(1000000, (index) => index * 5); // 0, 5, 10, 15, ...
   
   int _binarySearchRecursive(List<int> list, int target, int low, int high) {
     if (low > high) {
