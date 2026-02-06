@@ -1,6 +1,7 @@
+import 'package:algorithm_design_in_dart_flutter/bloc/binary_search_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/binary_search_bloc.dart';
+
 
 class BinarySearchRecursivePage extends StatefulWidget {
   const BinarySearchRecursivePage({super.key});
